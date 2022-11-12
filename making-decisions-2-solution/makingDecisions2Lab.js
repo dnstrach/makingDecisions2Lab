@@ -207,14 +207,14 @@ switch (letterGrade) {
 
 //Code Here
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log('Devmountain')
-  } else if (i % 5 === 0) {
-    console.log('mountain')
-  } else if (i % 3 === 0) {
+for(let i = 1; i <= 100; i++){
+  if (i % 3 === 0){
     console.log('Dev')
-  } else {
+  }else if (i % 5 === 0){
+    console.log('Mountain')
+  }else if (i % 3 === 0 && i % 5 === 0){
+    console.log('Devmountain')
+  }else {
     console.log(i)
   }
 }
